@@ -7,12 +7,14 @@ export const CustomIconUI = (props: any) => {
     customStyles,
     hoverStyles,
     handleAction,
+    fontSize,
   } = props;
 
   if (!Icon) return;
 
   return (
     <Icon
+      fontSize={fontSize}
       onClick={() => handleAction?.()}
       sx={{
         cursor: hasAction ? "pointer" : "",

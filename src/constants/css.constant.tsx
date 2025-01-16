@@ -5,3 +5,9 @@ export const CSS_CONSTANT = {
 export const CLIP_PATH = {
   POLYGON_AVATAR: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)",
 };
+
+export const FLEX_DIRECTION = {
+  ROW: "row",
+  COLUMN: "column",
+  ROW_REVERSE: "row-reverse",
+};
