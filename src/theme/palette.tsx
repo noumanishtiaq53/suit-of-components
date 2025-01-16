@@ -47,6 +47,10 @@ const action = {
   disabledBackground: "#adafca",
 };
 
+const custom = {
+  off_white_three: "#EAECF0",
+};
+
 export const palette = {
   common,
   primary,
@@ -58,4 +62,5 @@ export const palette = {
   grey,
   divider,
   action,
+  custom,
 };

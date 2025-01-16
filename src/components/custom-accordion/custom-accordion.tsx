@@ -1,12 +1,13 @@
+"use client";
 import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
   Typography,
-} from '@mui/material';
-import { ACCORDION_VARIANTS } from '@/constants/mui-constant';
-import { customAccordionStyles } from './CustomAccordion.styles';
-import { expandIcons } from './CustomAccordion.data';
+} from "@mui/material";
+import { ACCORDION_VARIANTS } from "@/constants/ui.constant";
+import { customAccordionStyles } from "./custom-accordion.styles";
+import { expandIcons } from "./custom-accordion.data";
 
 export const CustomAccordion = (props: any) => {
   const {
@@ -34,21 +35,21 @@ export const CustomAccordion = (props: any) => {
       disabled={disabled}
       disableGutters={disableGutters}
       sx={{
-        '& .MuiAccordionSummary-root': {
+        "& .MuiAccordionSummary-root": {
           ...accordionVariantStyles?.summary,
           ...summaryRootStyles,
         },
-        '& .MuiAccordionSummary-content': {
-          alignItems: 'center',
+        "& .MuiAccordionSummary-content": {
+          alignItems: "center",
           ...accordionVariantStyles?.summaryContent,
           ...summaryContentStyles,
         },
-        '& .MuiAccordionDetails-root': {
+        "& .MuiAccordionDetails-root": {
           ...accordionVariantStyles?.details,
         },
-        '&.MuiPaper-root': {
+        "&.MuiPaper-root": {
           borderRadius: 2,
-          backgroundColor: 'transparent',
+          backgroundColor: "transparent",
         },
         ...accordionVariantStyles?.root,
         ...customStyles,

@@ -1,11 +1,11 @@
-import { ACCORDION_VARIANTS } from '@/constants/mui-constant';
-import { pxToRem } from '@/utils/getFontValue';
+import { ACCORDION_VARIANTS } from "@/constants/ui.constant";
+import { pxToRem } from "@/utils/css.utils";
 
 export const customAccordionStyles: any = {
   [ACCORDION_VARIANTS?.SECONDARY]: {
     summary: {
-      backgroundColor: 'blue.main',
-      color: 'common.white',
+      backgroundColor: "blue.main",
+      color: "common.white",
       borderRadius: pxToRem(8),
     },
     root: {
@@ -14,8 +14,8 @@ export const customAccordionStyles: any = {
   },
   [ACCORDION_VARIANTS?.INHERIT]: {
     summary: {
-      backgroundColor: 'inherit',
-      color: 'inherit',
+      backgroundColor: "inherit",
+      color: "inherit",
     },
   },
   [ACCORDION_VARIANTS?.TERTIARY]: {
@@ -24,7 +24,7 @@ export const customAccordionStyles: any = {
       color: (theme: any) => `${theme?.palette?.grey?.[600]} !important`,
       borderRadius: 2,
       borderLeft: (theme: any) => `4px solid ${theme?.palette?.primary?.main}`,
-      flexDirection: 'row-reverse',
+      flexDirection: "row-reverse",
       height: 55,
     },
     summaryContent: {

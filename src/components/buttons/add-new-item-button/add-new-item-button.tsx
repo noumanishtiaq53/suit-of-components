@@ -1,5 +1,7 @@
-import { AddBox, AddCircle } from '@mui/icons-material';
-import { Button } from '@mui/material';
+"use client";
+import { CustomButtonUI } from "@/ui/custom-button/custom-button.ui";
+import { AddBox, AddCircle } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 const mappedIcon: any = {
   circle: AddCircle,
@@ -9,35 +11,34 @@ const mappedIcon: any = {
 export const AddNewItemButton = (props: any) => {
   const {
     disabled = false,
-    variant = 'contained',
+    variant = "contained",
     name,
-    color = 'primary',
+    color = "primary",
     onClick,
     hasStartIcon = true,
     hasEndIcon = false,
-    iconType = 'circle',
+    iconType = "circle",
+    size = "small",
   } = props;
 
   const MapIcon = mappedIcon?.[iconType];
 
   return (
-    <Button
+    <CustomButtonUI
       variant={variant}
       color={color}
-      disableElevation
       disabled={disabled}
       className="small"
-      size="small"
+      size={size}
       startIcon={hasStartIcon && <MapIcon />}
       endIcon={hasEndIcon && <MapIcon />}
-      onClick={() => onClick?.()}
-      sx={{
-        '& .MuiButton-startIcon': {
+      handleClick={() => onClick?.()}
+      customStyles={{
+        "& .MuiButton-startIcon": {
           ...(!!name ? {} : { marginRight: 0, marginLeft: 0 }),
         },
       }}
-    >
-      {name}
-    </Button>
+      text={name}
+    />
   );
 };

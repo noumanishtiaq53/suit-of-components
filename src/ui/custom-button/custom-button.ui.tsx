@@ -17,9 +17,8 @@ export const CustomButtonUI = (props: any) => {
     borderRadius = 2,
     customStyles,
     hoverStyles,
+    disabled = false,
   } = props;
-
-  // const mappedHeight =
 
   return (
     <Button
@@ -31,6 +30,7 @@ export const CustomButtonUI = (props: any) => {
       fullWidth={fullWidth}
       size={size}
       type={type}
+      disabled={disabled}
       disableElevation
       sx={{
         height: height,
