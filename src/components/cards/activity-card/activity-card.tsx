@@ -3,6 +3,7 @@ import { fullName } from "@/utils/avatarUtils";
 import { TruncateText } from "@/components/TruncateText";
 import { LogInfo } from "@/components/LogInfo";
 import { otherDateFormat } from "@/lib/date-time";
+import { CustomBoxUI } from "@/ui/custom-box/custom-box.ui";
 
 export const ActivityCard = (props: any) => {
   const {
@@ -16,7 +17,8 @@ export const ActivityCard = (props: any) => {
   } = props;
 
   return (
-    <Box
+    <CustomBoxUI
+    customStyles={{}}
       display="flex"
       gap={2}
       bgcolor="common.white"
