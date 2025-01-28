@@ -1,6 +1,6 @@
 import { Grid2 } from "@mui/material";
 
-export const CustomGridUI = (props: any) => {
+export const ContainerGridUI = (props: any) => {
   const {
     children,
     spacing = 1,
