@@ -9,7 +9,7 @@ import { CustomBoxUI } from "@/ui/custom-box/custom-box.ui";
 import { CustomCardUI } from "@/ui/custom-card/custom-card.ui";
 import { CustomTypographyUI } from "@/ui/custom-typography/custom-typography.ui";
 import { recordItemsListData } from "../profile-bio-card/profile-bio-card.data";
-import { CustomAvatarGroupUI } from "@/ui/custom-avatar-group/custom-avatar-group.ui";
+import { CustomAvatarGroupUI } from "@/ui/avatar/custom-avatar-group/custom-avatar-group.ui";
 
 export const CustomAvatarGroupCard = (props: any) => {
   const {

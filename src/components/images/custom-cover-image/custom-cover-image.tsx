@@ -2,7 +2,7 @@ import {
   COVER_IMAGE_DIMENSIONS,
   COVER_IMAGE_DIMENSIONS_TYPES,
 } from "@/constants/dimensions.constant";
-import { CustomAvatarUI } from "@/ui/custom-avatar/custom-avatar.ui";
+import { CustomAvatarUI } from "@/ui/avatar/custom-avatar/custom-avatar.ui";
 
 export const CustomCoverImage = (props: any) => {
   const {

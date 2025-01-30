@@ -6,7 +6,7 @@ import {
   PROFILE_AVATAR_DIMENSIONS,
   PROFILE_AVATAR_DIMENSIONS_TYPES,
 } from "@/constants/dimensions.constant";
-import { CustomAvatarUI } from "@/ui/custom-avatar/custom-avatar.ui";
+import { CustomAvatarUI } from "@/ui/avatar/custom-avatar/custom-avatar.ui";
 
 export const CustomImage = (props: any) => {
   const {

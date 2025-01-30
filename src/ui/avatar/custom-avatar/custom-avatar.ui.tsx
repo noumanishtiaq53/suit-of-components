@@ -1,5 +1,5 @@
 import { Avatar } from "@mui/material";
-import { CustomTypographyUI } from "../custom-typography/custom-typography.ui";
+import { CustomTypographyUI } from "../../custom-typography/custom-typography.ui";
 import { pxToRem } from "@/utils/css.utils";
 
 export const CustomAvatarUI = (props: any) => {

@@ -1,7 +1,7 @@
 "use client";
 import { BgAuthImage } from "@/assets/images";
 import { CustomBgImage } from "@/components/custom-images/custom-bg-image/custom-bg-image";
-import { CustomAvatarUI } from "@/ui/custom-avatar/custom-avatar.ui";
+import { CustomAvatarUI } from "@/ui/avatar/custom-avatar/custom-avatar.ui";
 import { CustomBoxUI } from "@/ui/custom-box/custom-box.ui";
 import { CustomGridUI } from "@/ui/custom-grid/custom-grid.ui";
 import { CustomTypographyUI } from "@/ui/custom-typography/custom-typography.ui";

@@ -1,5 +1,5 @@
 import { CLIP_PATH } from "@/constants/css.constant";
-import { CustomAvatarUI } from "@/ui/custom-avatar/custom-avatar.ui";
+import { CustomAvatarUI } from "@/ui/avatar/custom-avatar/custom-avatar.ui";
 import { HexagonalCard } from "../../custom-cards/hexagonal-card/hexagonal-card";
 import { CustomBadgeUI } from "@/ui/custom-badge/custom-badge.ui";
 import { BADGE_POSITION } from "@/constants/badge.constant";

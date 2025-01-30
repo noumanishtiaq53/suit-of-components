@@ -1,5 +1,5 @@
 import { CustomInfoImages } from "@/components/custom-images/custom-info-images/custom-info-images";
-import { CustomAvatarGroupUI } from "@/ui/custom-avatar-group/custom-avatar-group.ui";
+import { CustomAvatarGroupUI } from "@/ui/avatar/custom-avatar-group/custom-avatar-group.ui";
 import { CustomBoxUI } from "@/ui/custom-box/custom-box.ui";
 import { CustomCardUI } from "@/ui/custom-card/custom-card.ui";
 import { CustomLinearProgressUI } from "@/ui/custom-linear-progress/custom-linear-progress.ui";

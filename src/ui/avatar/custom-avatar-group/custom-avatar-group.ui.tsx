@@ -2,8 +2,8 @@ import { AvatarGroup } from "@mui/material";
 import { CustomAvatarUI } from "../custom-avatar/custom-avatar.ui";
 import { PROFILE_AVATAR_DIMENSIONS } from "@/constants/dimensions.constant";
 import { CLIP_PATH } from "@/constants/css.constant";
-import { CustomBoxUI } from "../custom-box/custom-box.ui";
-import { CustomTypographyUI } from "../custom-typography/custom-typography.ui";
+import { CustomBoxUI } from "../../custom-box/custom-box.ui";
+import { CustomTypographyUI } from "../../custom-typography/custom-typography.ui";
 
 export const CustomAvatarGroupUI = (props: any) => {
   const {
