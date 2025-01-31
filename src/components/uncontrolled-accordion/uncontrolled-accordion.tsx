@@ -6,8 +6,8 @@ import {
   Typography,
 } from "@mui/material";
 import { ACCORDION_VARIANTS } from "@/constants/ui.constant";
-import { customAccordionStyles } from "./custom-accordion.styles";
-import { expandIcons } from "./custom-accordion.data";
+import { customAccordionStyles } from "./uncontrolled-accordion.styles";
+import { expandIcons } from "./uncontrolled-accordion.data";
 
 export const CustomAccordion = (props: any) => {
   const {
